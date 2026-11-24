@@ -1,0 +1,13 @@
+*
+!*/
+!*.py
+!Snakefile
+!config.yaml
+!.gitignore
+!README.md
+!environment.yml
+data/
+networks/
+results/
+.snakemake/
+__pycache__/

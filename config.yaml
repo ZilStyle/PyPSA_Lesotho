@@ -1,0 +1,52 @@
+scenarios:
+  - planned_RE
+  - RE_zones
+
+years:
+  - 2025
+  - 2026
+  - 2027
+  - 2028
+  - 2029
+  - 2030
+  - 2035
+  - 2040
+  - 2045
+  - 2050
+
+scenario:
+  regions: ["LSO"]
+  opts: ["simple"]
+
+paths:
+  data: "data"
+  results: "results"
+  networks: "networks"
+  resources: "resources"
+  plots: "plots"
+
+# Scenario 1: Status Quo
+status_quo:
+  extendable_generators: false
+  extendable_lines: false
+  import_limit_MW: 180     # Line limit for Maseru bulk imports
+  enable_load_shedding: true
+
+# Scenario 2: Planned RE (you will fill later)
+planned_RE:
+  extendable_generators: False
+  extendable_lines: False
+  enable_load_shedding: true
+
+# Scenario 3: RE Zones (to be filled later)
+RE_zones:
+  extendable_generators: true
+  extendable_lines: true
+  enable_load_shedding: true
+
+solving:
+  solver: "gurobi"
+  solver_options:
+    Threads: 8
+    OutputFlag: 1
+    Method: 2
