@@ -86,7 +86,7 @@ The following inputs are required but not included. Paths are relative to the pr
 | `data/planned/processed_costs/storage_costs.csv` | `year`, `Carrier`, `capital_cost` (annualised), `max_hours`, `efficiency_store`, `efficiency_dispatch` |
 | `data/planned/processed_costs/transmission_costs.csv` | `year`, `Investment_usd_per_MW_km`, `FOM_percent_per_year`, `annuity_factor` |
 
-Network, demand, and hydropower data were provided by LEC and LHDA under restricted access. Requests for these data should be directed to the data owners. Cost assumptions are documented in the accompanying paper.
+Network, demand and hydropower data were provided by LEC and LHDA under restricted access. Requests for these data should be directed to the data owners. Cost assumptions are documented in the accompanying paper.
 
 ---
 
@@ -160,11 +160,14 @@ Demand scenario preparation:
 ## Citation
 
 
+
 ---
 
 ## Licence
 
-[Add licence, e.g. MIT or GPL-3.0]
+Copyright (C) 2026 Reabetsoe Sehobai, Energy Research Centre, National University of Lesotho.
+
+This code is released under the [GNU General Public License v3.0](LICENSE) (GPL-3.0). You may use, modify and redistribute it, provided that derived works are also released under GPL-3.0 with their source code. The software is provided without warranty. The licence covers the code in this repository only; it does not grant any rights to the restricted LEC and LHDA input data.
 
 ## Contact
 
